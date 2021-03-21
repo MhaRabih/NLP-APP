@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>NLP App</title>
+       <link rel="shortcut icon" href="./assets/images/icon.ico" >
+    </head>
+ 
+    <body>
+
+        <header>
+            <div class="">
+			
+               <img class="logo" src="./assets/images/icon.ico" alt="logo" >
+            </div>
+            <div class="">
+               <strong>NLP Application</strong> 
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="link" type="text" name="input" value="" onblur="" placeholder="URL">
+                    <input id="sub" type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                </form>
+            </section> 
+
+            <section id="sec">
+                <strong id="title">Form Results:</strong>
+					<div id="loader"></div>
+						<div id="results">
+							<div class="box" id="agreement"></div>
+							<div class="box" id="subjectivity"></div>
+							<div  class="box" id="confidence"></div>
+							<div class="box" id="irony"></div>
+						</div>
+				
+            </section>
+        </main>
+
+        <footer>
+            <p>"A different language is a different vision of life." 
+				 Federico Fellini</p>
+        </footer>
+
+    </body>
+</html>
